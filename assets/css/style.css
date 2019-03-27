@@ -1,0 +1,8 @@
+html, body {
+    height: 100%;
+    background-color: beige;
+}
+.gif {
+    height: 200px;
+    width: 200px;
+}
