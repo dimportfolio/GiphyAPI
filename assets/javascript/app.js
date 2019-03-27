@@ -53,7 +53,7 @@ function displayGifs(){
     var movieName = $(this).attr("movie-name");
     console.log(movieName);
     var gifContainer = $("#gifContainer");
-    var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + movieName + '&api_key=LG5PK0oNKbzJIuCVIcJyQM8Hfcf6bESu&limit=10';
+    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + movieName + '&api_key=LG5PK0oNKbzJIuCVIcJyQM8Hfcf6bESu&limit=10';
     gifContainer.empty();
     $.ajax({
         url: queryURL,
